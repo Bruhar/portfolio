@@ -24,6 +24,9 @@ links.forEach((link, index) => {
                 destination.classList.add('hidden');
             }
         })
+        setTimeout(() => {
+            window.scrollTo(0, 0);
+        }, 100);
     })
 })
 tabulations.forEach((tab, index) => {
