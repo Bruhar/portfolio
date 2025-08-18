@@ -49,6 +49,6 @@ tabulations.forEach((tab, index) => {
     })
 })
 btnCV.addEventListener('click', () => {
-    const file = 'files/CURRICULUM_VITAE.pdf';
+    const file = 'files/CURRICULUM_VITAE_v2.pdf';
     const new_tab = window.open(file, '_blank');
 })
